@@ -3,6 +3,6 @@ from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
     database_url: str
-    
-    
-settings = Settings()
+
+
+settings = Settings()  # pyright: ignore[reportCallIssue]
